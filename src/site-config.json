@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Epoxy Flooring",
+    "phone": "555-epo-r93",
+    "category": "epoxy-flooring",
+    "city": "Minneapolis",
+    "state": "MN"
+  },
+  "design": {
+    "preset": {
+      "id": "epoxy-flooring-dark-premium",
+      "categoryGroup": "epoxy-flooring",
+      "name": "Dark Premium",
+      "recipeFile": "epoxy-flooring/dark-premium.astro",
+      "colors": {
+        "primary": "#818CF8",
+        "primaryDark": "#6770c6",
+        "primaryLight": "#cdd1fc",
+        "secondary": "#2A2A2A",
+        "accent": "#949df9",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "epoxy-flooring/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Durable Floors for Minnesota Winters",
+      "heroSubline": "Premium epoxy flooring solutions built for extreme freeze-thaw cycles. Serving Minneapolis homes since 2012 with garage, basement, and commercial coatings.",
+      "aboutTitle": "Built for the North",
+      "aboutText": [
+        "Founded in 2012, Onyx Epoxy Flooring started with one goal: create floors that survive Minnesota's brutal winters. Our founder, a third-generation contractor, saw too many cracked coatings after just one season.",
+        "We use only industrial-grade materials and proprietary application techniques developed through testing in local conditions. Every project includes thermal expansion considerations for our -30°F winters.",
+        "When we're not coating floors, you'll find our team volunteering with Habitat for Humanity Twin Cities or sponsoring youth hockey teams at Braemar Arena."
+      ],
+      "valueProps": [
+        {
+          "title": "Arctic-Tested",
+          "description": "Formulations specifically engineered for Minnesota's freeze-thaw cycles and road salt exposure."
+        },
+        {
+          "title": "Historic Home Experts",
+          "description": "Special techniques for preserving original concrete in Craftsman basements and garage slabs."
+        },
+        {
+          "title": "Fast Curing",
+          "description": "Low-odor systems that cure in 12 hours - critical during our short application windows."
+        },
+        {
+          "title": "No Generic Designs",
+          "description": "Custom color blends inspired by Lake Minnetonka sunsets and North Shore granite."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Winter Prep Inspection",
+      "ctaSubline": "Schedule before October 15th and we'll include complimentary ice melt protection."
+    },
+    "services": [
+      {
+        "slug": "garage-floor-coatings",
+        "name": "Garage Floor Coatings",
+        "shortDescription": "Salt-resistant garage floors that withstand plow blades and -30°F winters.",
+        "description": "Minnesota garages endure more abuse than almost any other space - from snowplow blades scraping across the surface to road salt eating through inferior coatings. Our 4-layer system uses military-grade polymer blends with rubberized undercoats that flex during temperature swings.\n\nWe start by pressure washing and diamond-grinding your slab to remove all traces of winter damage. After repairing cracks with thermal expansion joints, we apply our proprietary primer that bonds at a molecular level. The final quartz-infused topcoat resists tire marks from winter studs while providing traction during icy months.\n\nPopular options include our 'Lakeshore Slate' flake blend that hides salt stains or our 'Mill City Metallic' series with copper accents inspired by the Stone Arch Bridge.",
+        "process": [
+          "Step 1: Diagnostic inspection checking for freeze-thaw damage",
+          "Step 2: Mechanical preparation with 40-grit diamond grinders",
+          "Step 3: Hot water pressure wash (critical for salt removal)",
+          "Step 4: Custom mix application with temperature-adjusted resins"
+        ],
+        "benefits": [
+          "Eliminates tire marks from winter studs",
+          "Withstands -30°F without cracking",
+          "Slip-resistant texture for snowy boots",
+          "10-year warranty against salt damage"
+        ],
+        "faq": [
+          {
+            "question": "How soon after application can I park my car?",
+            "answer": "Our fast-cure formula allows light vehicle traffic in 24 hours, even in winter. Full cure (including RV parking) reaches maximum hardness in 72 hours."
+          },
+          {
+            "question": "Will it peel when I chip ice off my bumper?",
+            "answer": "We use impact-resistant topcoats rated for 18,000 PSI - that's stronger than most commercial parking ramps. Ice chunks will bounce right off."
+          }
+        ]
+      },
+      {
+        "slug": "basement-floor-epoxy",
+        "name": "Basement Floor Epoxy",
+        "shortDescription": "Moisture-blocking floors for century-old Minneapolis foundations.",
+        "description": "Those beautiful 1920s Craftsman basements weren't designed for modern humidity levels. Our vapor barrier epoxy systems prevent musty smells while creating durable surfaces for home gyms or rec rooms.\n\nWe begin with thorough moisture testing using digital hygrometers - critical in neighborhoods like Linden Hills where groundwater tables rise each spring. For severe cases, we install our 'Arctic Shield' membrane that stops 99.9% of vapor transmission, a game-changer for homes near the Chain of Lakes.\n\nThe finish layer options include subtle matte finishes that complement original brick foundations or our 'Frost Line' decorative chips that mimic the look of drifted snow. All systems are formulated to resist efflorescence from our mineral-rich soils.",
+        "process": [
+          "Step 1: 72-hour moisture vapor emission testing",
+          "Step 2: Concrete pH balancing for optimal adhesion",
+          "Step 3: Self-leveling application with moisture barriers",
+          "Step 4: Urethane topcoat for scratch resistance"
+        ],
+        "benefits": [
+          "Prevents mold growth in humid summers",
+          "Won't bubble when sump pumps activate",
+          "Matte finish reduces basement glare",
+          "No off-gassing during winter months"
+        ],
+        "faq": [
+          {
+            "question": "Will epoxy make my basement colder?",
+            "answer": "Actually, our insulated systems add an R-1.2 thermal break - you'll notice less chill radiating from the slab during January cold snaps."
+          },
+          {
+            "question": "How does it handle radon mitigation systems?",
+            "answer": "We coordinate with radon contractors to ensure proper sealing around sump pits and pipe penetrations, meeting all MN health codes."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-epoxy",
+        "name": "Commercial Epoxy",
+        "shortDescription": "Heavy-duty coatings for breweries, garages, and retail spaces.",
+        "description": "From Northeast Minneapolis breweries needing chemical-resistant floors to downtown parking ramps requiring 24/7 durability, our commercial systems outperform standard industrial coatings.\n\nFor food service clients like those in the North Loop, we offer NSF-approved seamless floors with antimicrobial additives - ideal for kitchens dealing with grease and below-zero delivery temperatures. Warehouse installations feature our 'Polar Tread' texture system that provides traction even when covered in frost from loading docks.\n\nWe schedule all commercial work during off-hours to minimize business disruption, with rapid-cure options allowing reopening in as little as 8 hours. All systems meet Minnesota's strict VOC regulations while delivering 3x the abrasion resistance of conventional epoxies.",
+        "process": [
+          "Step 1: Slab profiling with shot blasting (no dust)",
+          "Step 2: Joint stabilization with flexible polymers",
+          "Step 3: High-build resin application",
+          "Step 4: Custom line striping for traffic patterns"
+        ],
+        "benefits": [
+          "Withstands pallet jack loads below zero",
+          "Chemical-resistant for auto shops",
+          "Meets ADA slip requirements",
+          "5-year commercial warranty"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle freeze-thaw damage in parking garages?",
+            "answer": "Our 'Dual Flex' system uses alternating layers of rigid and flexible resins - the same technology used on the I-35W bridge decks."
+          },
+          {
+            "question": "What's the minimum temperature for application?",
+            "answer": "We maintain heated enclosures allowing installations down to -10°F, using specially formulated cold-cure activators."
+          }
+        ]
+      },
+      {
+        "slug": "decorative-flake-floors",
+        "name": "Decorative Flake Floors",
+        "shortDescription": "Artistic finishes inspired by Minnesota landscapes.",
+        "description": "Transform your space with floors that celebrate our regional beauty. Our design team creates custom blends like 'Boundary Waters' (deep blue with silver flakes resembling ice fractures) or 'Prairie Fire' (terra cotta bases with amber accents).\n\nFor historic homes in areas like Summit Avenue, we offer subtle vintage-inspired patterns using mica flakes that catch light like original hardwood. Modern lofts in the North Loop often choose our 'Rust Belt' metallic series with copper and iron oxide tones echoing the Mill District's heritage.\n\nEvery design starts with a consultation at our Minneapolis showroom, where we'll match samples to your existing finishes. The flakes aren't just decorative - they add 40% more impact resistance compared to standard epoxy, crucial for withstanding dropped ice fishing gear or hockey bags.",
+        "process": [
+          "Step 1: Design consultation with local color specialist",
+          "Step 2: Base coat application in temperature-controlled environment",
+          "Step 3: Hand-tossed flake distribution for artistic effect",
+          "Step 4: Gloss or matte clear coat sealing"
+        ],
+        "benefits": [
+          "Hides scuffs from winter gear",
+          "No two floors are identical",
+          "Reflects light in dark Minnesota winters",
+          "Withstands UV rays in sunrooms"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my cabin's pine flooring?",
+            "answer": "We keep 23 Minnesota wood grain patterns in stock, including white pine and red oak variations common to 1920s cabins."
+          },
+          {
+            "question": "Do the flakes make cleaning difficult?",
+            "answer": "Our seamless topcoat creates a glass-smooth surface - snowmelt and road salt wipe away effortlessly with a damp mop."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-repair",
+        "name": "Concrete Repair",
+        "shortDescription": "Structural solutions for frost-heaved slabs.",
+        "description": "Minnesota's freeze-thaw cycles destroy more concrete than any other factor. Our repair process goes beyond cosmetic fixes to address underlying structural issues in garage slabs, stoops, and basement floors.\n\nUsing ground-penetrating radar, we map the full extent of damage - especially critical for older Plymouth homes where previous patches failed. Our polymer-modified repair mortars include freeze-resistant additives and flexural strength ratings exceeding MNDOT standards.\n\nFor severe cases like Eden Prairie homes with extensive heaving, we install our 'PermaThaw' reinforcement grid before resurfacing. This stainless steel mesh prevents recracking while allowing natural thermal movement. All repairs come with thermal imaging verification to ensure proper bonding at subzero temperatures.",
+        "process": [
+          "Step 1: GPR scanning to detect hidden voids",
+          "Step 2: Perimeter isolation with expansion foam",
+          "Step 3: Polymer injection for stabilized base",
+          "Step 4: Final troweling with thermal-rated overlay"
+        ],
+        "benefits": [
+          "Prevents ice dam-related cracking",
+          "Restores load capacity for vehicles",
+          "Eliminates trip hazards on stoops",
+          "7-year structural warranty"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix my buckled garage apron?",
+            "answer": "Yes - we use helical piers to stabilize sunken sections before applying our flex overlay system, a permanent solution unlike temporary mudjacking."
+          },
+          {
+            "question": "How long until I can salt a repaired driveway?",
+            "answer": "Our rapid-set formulas reach full chemical resistance in 14 days - we'll provide temporary salt alternatives until then."
+          }
+        ]
+      },
+      {
+        "slug": "anti-slip-coatings",
+        "name": "Anti-Slip Coatings",
+        "shortDescription": "Safety solutions for icy entries and pool decks.",
+        "description": "Prevent dangerous falls on your property with our textured coating systems designed specifically for Minnesota's slippery conditions. From Lake Minnetonka pool decks to downtown condo entryways, we engineer traction without compromising aesthetics.\n\nOur 'Glacier Grip' system uses aluminum oxide particles suspended in a clear urethane - invisible until wet, when it creates a surface with the friction of 80-grit sandpaper. For historic homes where visible texture isn't desired, we offer our 'Black Ice' formula that activates only below 32°F.\n\nApplications take just 4-6 hours with no curing downtime, making it ideal for busy households. We can even coordinate with snow removal services to schedule application during predicted thaw periods. All coatings are fully compatible with heated concrete systems common in Bloomington's higher-end properties.",
+        "process": [
+          "Step 1: Surface degreasing with biodegradable cleaners",
+          "Step 2: Etching for maximum particle adhesion",
+          "Step 3: Precision spray application",
+          "Step 4: Traction testing with wetness simulator"
+        ],
+        "benefits": [
+          "Activates only when surface is wet",
+          "No visible roughness in summer",
+          "Withstands snowplow blades",
+          "ADA-compliant for businesses"
+        ],
+        "faq": [
+          {
+            "question": "Will it tear up my dog's paws?",
+            "answer": "The texture is designed to engage shoe treads, not bare skin - neighborhood walkers in Linden Hills report zero issues with their pets."
+          },
+          {
+            "question": "How does it affect heated driveways?",
+            "answer": "Our coatings actually improve thermal transfer efficiency by 12% compared to bare concrete, helping melt snow faster."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Anders T.",
+        "rating": 5,
+        "service": "Garage Floor Coatings",
+        "text": "Three winters later and not a single crack or salt stain on our double garage in Southwest Minneapolis. They even matched the flecks to our 1920s Craftsman's original tile colors. The crew worked through a November cold snap to finish before snow season.",
+        "date": "2025-02-14"
+      },
+      {
+        "name": "Ming-Li W.",
+        "rating": 5,
+        "service": "Basement Floor Epoxy",
+        "text": "Our Linden Hills basement used to grow mold every April when groundwater rose. Onyx installed their vapor barrier system last fall - first dry spring in 12 years! The matte finish looks like polished concrete but feels warmer underfoot during polar vortexes.",
+        "date": "2025-03-22"
+      },
+      {
+        "name": "Devon R.",
+        "rating": 5,
+        "service": "Commercial Epoxy",
+        "text": "As a North Loop brewery owner, I needed floors that could handle -20°F deliveries and constant chemical spills. Onyx's industrial coating has outlasted three Minnesota winters with zero wear - even where pallet jacks turn all day. Their overnight installation meant zero lost production time.",
+        "date": "2025-01-05"
+      },
+      {
+        "name": "Elise K.",
+        "rating": 5,
+        "service": "Decorative Flake Floors",
+        "text": "The 'Lake Superior Agate' design in our Edina sunroom makes winter bearable - sunlight reflects the metallic flakes like ice crystals. Our golden retriever's nails haven't made a scratch despite daily zoomies. Perfect for showing off during book club when it's -10°F outside.",
+        "date": "2025-04-18"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Concrete Repair",
+        "text": "After three failed attempts by others, Onyx permanently fixed our Plymouth garage floor heave. Their thermal imaging showed exactly where cold air was penetrating under the slab. Two winters later and the laser level proves it's still perfectly flat.",
+        "date": "2025-02-03"
+      },
+      {
+        "name": "Priya S.",
+        "rating": 5,
+        "service": "Anti-Slip Coatings",
+        "text": "No more anxiety about my parents slipping on our Bloomington patio. The 'Black Ice' coating is invisible until it senses moisture - brilliant for Minnesota's freeze-thaw cycles. Installation took just an afternoon during an October warm spell.",
+        "date": "2025-03-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Minneapolis Epoxy Flooring | Onyx Epoxy Flooring",
+        "description": "Arctic-tested epoxy floors for Twin Cities homes and businesses. Specializing in freeze-thaw resistant garage, basement & commercial coatings since 2012."
+      },
+      "about": {
+        "title": "About Our Minnesota Epoxy Floor Company",
+        "description": "Local-owned epoxy flooring experts serving Minneapolis since 2012. Learn why our systems outperform in -30°F winters and humid summers."
+      },
+      "services": {
+        "title": "Epoxy Flooring Services in Minneapolis | Onyx",
+        "description": "Commercial & residential epoxy flooring solutions built for Minnesota winters. Garage coatings, basement systems, decorative flakes & concrete repair."
+      },
+      "contact": {
+        "title": "Contact Twin Cities Epoxy Floor Experts",
+        "description": "Schedule your free epoxy flooring consultation in Minneapolis-St. Paul. Serving all metro areas with premium cold-weather coatings."
+      },
+      "reviews": {
+        "title": "Minneapolis Epoxy Flooring Reviews | Onyx",
+        "description": "See why Twin Cities homeowners and businesses trust Onyx for durable, beautiful epoxy floors that stand up to Minnesota winters."
+      },
+      "service-areas": {
+        "title": "Epoxy Flooring Service Areas Near Minneapolis",
+        "description": "Serving St. Paul, Plymouth, Eden Prairie, Maple Grove & Bloomington with premium epoxy flooring solutions for local climate challenges."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "850+",
+      "satisfaction": "98%",
+      "teamSize": "22"
+    },
+    "serviceAreas": [
+      {
+        "city": "St. Paul",
+        "slug": "st-paul-mn",
+        "state": "MN",
+        "content": "Onyx Epoxy Flooring proudly serves St. Paul, MN, providing durable and stylish epoxy flooring solutions perfect for the city’s historic and modern homes alike. With extreme cold winters that frequently drop below zero, our high-performance epoxy coatings are designed to withstand temperature fluctuations while adding beauty and protection to your floors. Whether you're restoring a Victorian-era home on Summit Avenue or upgrading a contemporary space, our expertise ensures a flawless finish that lasts. St. Paul residents trust us for garage floors, basements, and commercial spaces that demand resilience against harsh weather. Our seamless, easy-to-clean surfaces are ideal for combating snow, salt, and moisture common in this climate.",
+        "localContext": "St. Paul is known for its historic Victorian-era homes, particularly along Summit Avenue, and experiences extreme cold winters.",
+        "nearbyAreas": [
+          "Minneapolis",
+          "Roseville",
+          "Woodbury"
+        ]
+      },
+      {
+        "city": "Plymouth",
+        "slug": "plymouth-mn",
+        "state": "MN",
+        "content": "In Plymouth, MN, Onyx Epoxy Flooring transforms suburban homes built in the 1970s-80s with premium epoxy flooring solutions. Our coatings are engineered to endure the region’s extreme cold winters, preventing cracks and wear from freezing temperatures. Plymouth homeowners appreciate our durable finishes for garages, basements, and living spaces, which resist stains, chemicals, and heavy foot traffic. Whether you're updating a classic suburban home or a modern space, our epoxy floors add value and longevity. With quick installation and minimal disruption, we help you achieve a sleek, low-maintenance surface perfect for Minnesota’s harsh climate.",
+        "localContext": "Plymouth features established suburban homes primarily from the 1970s-80s and faces extreme cold winters.",
+        "nearbyAreas": [
+          "Maple Grove",
+          "Minnetonka",
+          "Wayzata"
+        ]
+      },
+      {
+        "city": "Eden Prairie",
+        "slug": "eden-prairie-mn",
+        "state": "MN",
+        "content": "Eden Prairie, MN, homeowners rely on Onyx Epoxy Flooring for high-quality epoxy coatings tailored to 1980s-90s planned developments. Our floors are built to handle the area’s subzero winters, offering unmatched durability and thermal resistance. Ideal for garages, basements, and kitchens, our epoxy surfaces resist moisture, salt, and daily wear while enhancing your home’s aesthetics. Eden Prairie’s active families benefit from our slip-resistant and easy-to-clean options, perfect for busy households. Trust us to deliver a flawless, long-lasting finish that stands up to Minnesota’s toughest weather conditions.",
+        "localContext": "Eden Prairie is characterized by 1980s-90s planned developments and experiences extreme cold winters.",
+        "nearbyAreas": [
+          "Bloomington",
+          "Chanhassen",
+          "Shakopee"
+        ]
+      },
+      {
+        "city": "Maple Grove",
+        "slug": "maple-grove-mn",
+        "state": "MN",
+        "content": "Maple Grove, MN, families love Onyx Epoxy Flooring’s solutions for their 1990s-2000s homes, combining style and durability for Minnesota’s frigid winters. Our epoxy coatings protect against cracks, stains, and moisture, making them ideal for garages, basements, and high-traffic areas. Maple Grove’s climate demands floors that can handle snow, ice, and salt, and our seamless installations deliver just that. Whether you’re upgrading a family home or a commercial space, our finishes are scratch-resistant and easy to maintain. Let us enhance your floors with a custom look that withstands the test of time and temperature.",
+        "localContext": "Maple Grove is known for its 1990s-2000s family-oriented developments and extreme cold winters.",
+        "nearbyAreas": [
+          "Plymouth",
+          "Brooklyn Park",
+          "Rogers"
+        ]
+      },
+      {
+        "city": "Bloomington",
+        "slug": "bloomington-mn",
+        "state": "MN",
+        "content": "Bloomington, MN, residents choose Onyx Epoxy Flooring for reliable epoxy solutions in their 1960s-70s ranch homes. Our coatings are specially formulated to endure subzero winters, preventing damage from freezing temps and moisture. Bloomington’s mix of residential and commercial spaces benefits from our durable, low-maintenance floors that resist stains, chemicals, and heavy use. From garages to retail spaces, our epoxy finishes provide a sleek, modern look while standing up to Minnesota’s harsh weather. Trust us to deliver a floor that’s as tough as it is attractive.",
+        "localContext": "Bloomington boasts 1960s-70s established ranch homes and faces extreme cold winters.",
+        "nearbyAreas": [
+          "Edina",
+          "Richfield",
+          "Eden Prairie"
+        ]
+      },
+      {
+        "city": "Minneapolis",
+        "slug": "minneapolis-mn",
+        "state": "MN",
+        "content": "Onyx Epoxy Flooring is Minneapolis’ top choice for high-performance epoxy floors designed to thrive in the city’s frigid winters. From modern lofts to historic homes, our coatings protect against temperature swings, moisture, and daily wear. Minneapolis homeowners and businesses appreciate our seamless, easy-to-clean surfaces, ideal for garages, basements, and commercial spaces. Whether you’re tackling snow, salt, or heavy foot traffic, our epoxy floors offer unbeatable durability and style. Let us help you create a space that’s both functional and visually striking, no matter the season.",
+        "localContext": "Minneapolis features diverse architecture, from historic to contemporary, and endures extreme cold winters.",
+        "nearbyAreas": [
+          "St. Paul",
+          "Edina",
+          "Brooklyn Park"
+        ]
+      },
+      {
+        "city": "Woodbury",
+        "slug": "woodbury-mn",
+        "state": "MN",
+        "content": "Woodbury, MN, trusts Onyx Epoxy Flooring for epoxy solutions that combat the challenges of extreme cold winters. Our floors are engineered to resist cracking, moisture, and stains, making them perfect for Woodbury’s mix of modern homes and busy households. From garages to basements, our coatings provide a durable, attractive surface that’s easy to maintain. Woodbury’s climate demands floors that can handle snow and ice, and our epoxy delivers. Upgrade your space with a finish that’s built to last through Minnesota’s toughest weather.",
+        "localContext": "Woodbury is a growing suburban community with modern homes and extreme winter conditions.",
+        "nearbyAreas": [
+          "Cottage Grove",
+          "Maplewood",
+          "Oakdale"
+        ]
+      },
+      {
+        "city": "Edina",
+        "slug": "edina-mn",
+        "state": "MN",
+        "content": "Edina, MN, homeowners and businesses rely on Onyx Epoxy Flooring for premium epoxy coatings that stand up to subzero winters. Our floors are designed to resist thermal shock, moisture, and daily wear, making them ideal for Edina’s upscale residences and commercial spaces. Whether you’re updating a classic home or a modern office, our seamless finishes add elegance and durability. Edina’s harsh winters require floors that can handle salt and snow, and our epoxy solutions exceed expectations. Let us transform your space with a floor that’s as resilient as it is beautiful.",
+        "localContext": "Edina is known for its upscale homes and commercial spaces, with extreme cold winters.",
+        "nearbyAreas": [
+          "Bloomington",
+          "Minneapolis",
+          "Richfield"
+        ]
+      },
+      {
+        "city": "Brooklyn Park",
+        "slug": "brooklyn-park-mn",
+        "state": "MN",
+        "content": "Brooklyn Park, MN, residents trust Onyx Epoxy Flooring for durable epoxy solutions that endure the area’s frigid winters. Our coatings are perfect for garages, basements, and high-traffic areas, resisting cracks, stains, and moisture. Brooklyn Park’s mix of residential and commercial properties benefits from our seamless, low-maintenance floors that handle snow, ice, and salt with ease. Whether you’re upgrading a family home or a business, our epoxy finishes provide long-lasting protection and style. Let us help you create a floor that thrives in Minnesota’s challenging climate.",
+        "localContext": "Brooklyn Park features a blend of residential and commercial properties and faces extreme winter weather.",
+        "nearbyAreas": [
+          "Maple Grove",
+          "Plymouth",
+          "Coon Rapids"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "garage-floor-coatings": "/images/service-garage-floor-coatings.webp",
+      "basement-floor-epoxy": "/images/service-basement-floor-epoxy.webp",
+      "commercial-epoxy": "/images/service-commercial-epoxy.webp",
+      "decorative-flake-floors": "/images/service-decorative-flake-floors.webp",
+      "concrete-repair": "/images/service-concrete-repair.webp",
+      "anti-slip-coatings": "/images/service-anti-slip-coatings.webp"
+    },
+    "servicesResponsive": {
+      "garage-floor-coatings": {
+        "src": "/images/service-garage-floor-coatings.webp",
+        "srcset": "/images/service-garage-floor-coatings-400w.webp 400w, /images/service-garage-floor-coatings-800w.webp 800w, /images/service-garage-floor-coatings-1200w.webp 1200w, /images/service-garage-floor-coatings.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "basement-floor-epoxy": {
+        "src": "/images/service-basement-floor-epoxy.webp",
+        "srcset": "/images/service-basement-floor-epoxy-400w.webp 400w, /images/service-basement-floor-epoxy-800w.webp 800w, /images/service-basement-floor-epoxy-1200w.webp 1200w, /images/service-basement-floor-epoxy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-epoxy": {
+        "src": "/images/service-commercial-epoxy.webp",
+        "srcset": "/images/service-commercial-epoxy-400w.webp 400w, /images/service-commercial-epoxy-800w.webp 800w, /images/service-commercial-epoxy-1200w.webp 1200w, /images/service-commercial-epoxy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "decorative-flake-floors": {
+        "src": "/images/service-decorative-flake-floors.webp",
+        "srcset": "/images/service-decorative-flake-floors-400w.webp 400w, /images/service-decorative-flake-floors-800w.webp 800w, /images/service-decorative-flake-floors-1200w.webp 1200w, /images/service-decorative-flake-floors.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-repair": {
+        "src": "/images/service-concrete-repair.webp",
+        "srcset": "/images/service-concrete-repair-400w.webp 400w, /images/service-concrete-repair-800w.webp 800w, /images/service-concrete-repair-1200w.webp 1200w, /images/service-concrete-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "anti-slip-coatings": {
+        "src": "/images/service-anti-slip-coatings.webp",
+        "srcset": "/images/service-anti-slip-coatings-400w.webp 400w, /images/service-anti-slip-coatings-800w.webp 800w, /images/service-anti-slip-coatings-1200w.webp 1200w, /images/service-anti-slip-coatings.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
